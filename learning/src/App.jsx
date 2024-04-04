@@ -87,15 +87,40 @@
 
 //onclick listerner----------------------------------------------------------------------
 
-import Button from './buttonOnClickListener/Button.jsx'
+// import Button from './buttonOnClickListener/Button.jsx'
+// function App() {
+
+//     return (
+//         <>
+//             <Button />
+//         </>
+//     ); 
+// }
+
+//onclick listerner----------------------------------------------------------------------
+// import StateAndHook from './stateAndHook/myComponent.jsx'
+
+// function App() {
+
+//     return (
+//         <>
+//             <StateAndHook />
+//         </>
+//     ); 
+// }
+
+import Counter from './Counter/Counter.jsx'
+
 function App() {
 
     return (
         <>
-            <Button />
+            <Counter />
         </>
     ); 
 }
+
+
 
 
 export default App
