@@ -38,7 +38,7 @@ import Card from './Card.jsx';
 //     );
 // }
 
-//Properties and propTypes------------------------------------------------------
+//Properties, propTypes and default properties ------------------------------------------------------
 import Student from './Students/Student.jsx';
 
 function App() {
