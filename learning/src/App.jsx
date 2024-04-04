@@ -109,13 +109,25 @@
 //     ); 
 // }
 
-import Counter from './Counter/Counter.jsx'
+// import Counter from './Counter/Counter.jsx'
+
+// function App() {
+
+//     return (
+//         <>
+//             <Counter />
+//         </>
+//     ); 
+// }
+
+//onChange listerner----------------------------------------------------------------------
+import OnChange from './onChangeInput/onChange.jsx'
 
 function App() {
 
     return (
         <>
-            <Counter />
+            <OnChange />
         </>
     ); 
 }
