@@ -50,7 +50,7 @@ function App() {
             <Student age={67}/>
 
        </>
-    );
+    ); 
 }
 
 
