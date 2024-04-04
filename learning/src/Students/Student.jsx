@@ -17,7 +17,7 @@ Student.propTypes = {
     name:PropTypes.string,
     age: PropTypes.number,
     isStudent: PropTypes.bool
-} 
+}  
 
 Student.defaultProps = {
     name:"Guest",
