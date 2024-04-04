@@ -1,10 +1,10 @@
 
+
+
+//basic header and footer-----------------------------------------------
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Food from './Food.jsx';
-import Card from './Card.jsx';
-
-//basic header and footer-----------------------------------------------
 // function App() {
 //     return (
 //         <>
@@ -17,6 +17,7 @@ import Card from './Card.jsx';
 // }
 
 //card components------------------------------------------------------
+import Card from './Card.jsx';
 // function App() {
 //     return (
 //         <>
@@ -28,15 +29,12 @@ import Card from './Card.jsx';
 //     );
 // }
 
-//card components------------------------------------------------------
+//Button components with css congif(externam modules and inline )------------------------------------------------------
+import Button from './Button/Button.jsx';
+
 function App() {
     return (
-        <>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-        </>
+       <Button/>
     );
 }
 
