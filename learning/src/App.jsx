@@ -39,17 +39,30 @@ import Card from './Card.jsx';
 // }
 
 //Properties, propTypes and default properties ------------------------------------------------------
-import Student from './Students/Student.jsx';
+// import Student from './Students/Student.jsx';
+
+// function App() {
+//     return (
+//        <>
+//             <Student name="Doraemon" age={30} isStudent={false}/>
+//             <Student name="Shinchan" age={22} isStudent={true}/>
+//             <Student name="tom" age={67} isStudent={false}/>
+//             <Student age={67}/>
+
+//        </>
+//     ); 
+// }
+
+//conditional rendertings ----------------------------------------------------------------------
+import ConditionalRendering from './conditionalRendering/userGreetings.jsx';
 
 function App() {
     return (
-       <>
-            <Student name="Doraemon" age={30} isStudent={false}/>
-            <Student name="Shinchan" age={22} isStudent={true}/>
-            <Student name="tom" age={67} isStudent={false}/>
-            <Student age={67}/>
+        <>
+            <ConditionalRendering isLogged={true} username="Ajith R"/>
+            <ConditionalRendering isLogged={false} username="Ajith R"/>
 
-       </>
+        </>
     ); 
 }
 
