@@ -4,7 +4,7 @@ import Footer from './Footer.jsx';
 import Food from './Food.jsx';
 import Card from './Card.jsx';
 
-//basic header and footer
+//basic header and footer-----------------------------------------------
 // function App() {
 //     return (
 //         <>
@@ -16,7 +16,19 @@ import Card from './Card.jsx';
 //     );
 // }
 
-//card components
+//card components------------------------------------------------------
+// function App() {
+//     return (
+//         <>
+//             <Card/>
+//             <Card/>
+//             <Card/>
+//             <Card/>
+//         </>
+//     );
+// }
+
+//card components------------------------------------------------------
 function App() {
     return (
         <>
@@ -27,6 +39,7 @@ function App() {
         </>
     );
 }
+
 
 
 export default App
