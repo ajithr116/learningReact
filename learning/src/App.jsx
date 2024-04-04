@@ -30,14 +30,28 @@ import Card from './Card.jsx';
 // }
 
 //Button components with css congif(externam modules and inline )------------------------------------------------------
-import Button from './Button/Button.jsx';
+// import Button from './Button/Button.jsx';
+
+// function App() {
+//     return (
+//        <Button/>
+//     );
+// }
+
+//Properties and propTypes------------------------------------------------------
+import Student from './Students/Student.jsx';
 
 function App() {
     return (
-       <Button/>
+       <>
+            <Student name="Doraemon" age={30} isStudent={false}/>
+            <Student name="Shinchan" age={22} isStudent={true}/>
+            <Student name="tom" age={67} isStudent={false}/>
+            <Student age={67}/>
+
+       </>
     );
 }
-
 
 
 export default App
