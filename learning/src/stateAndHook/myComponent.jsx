@@ -65,7 +65,6 @@ function myComponent(){
     //     </div>
     // )
 
-    
 
 }
 
