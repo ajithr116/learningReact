@@ -2,9 +2,9 @@
 
 
 //basic header and footer-----------------------------------------------
-import Header from './Header.jsx';
-import Footer from './Footer.jsx';
-import Food from './Food.jsx';
+// import Header from './Header.jsx';
+// import Footer from './Footer.jsx';
+// import Food from './Food.jsx';
 // function App() {
 //     return (
 //         <>
@@ -17,7 +17,8 @@ import Food from './Food.jsx';
 // }
 
 //card components------------------------------------------------------
-import Card from './Card.jsx';
+// import Card from './Card.jsx';
+
 // function App() {
 //     return (
 //         <>
@@ -53,15 +54,45 @@ import Card from './Card.jsx';
 //     ); 
 // }
 
-//conditional rendertings ----------------------------------------------------------------------
-import ConditionalRendering from './conditionalRendering/userGreetings.jsx';
+//conditional rendertings. User greetings  ----------------------------------------------------------------------
+// import ConditionalRendering from './conditionalRendering/userGreetings.jsx';
 
+// function App() {
+//     return (
+//         <>
+//             <ConditionalRendering isLogged={true} username="Ajith R"/>
+//             <ConditionalRendering isLogged={false} username="Ajith R"/>
+//         </>
+//     ); 
+// }
+
+//REndering list----------------------------------------------------------------------
+// import List from './renderList/list.jsx';
+
+
+
+// function App() {
+
+//     const fruits = [{id:1, name:"apple",calories:95},
+//     {id:2, name:"orange",calories:45},
+//     {id:3, name: "pineaple",calories:159}];
+
+//     return (
+//         <>
+//             <List/>
+//         </>
+//     ); 
+// }
+
+
+//onclick listerner----------------------------------------------------------------------
+
+import Button from './buttonOnClickListener/Button.jsx'
 function App() {
+
     return (
         <>
-            <ConditionalRendering isLogged={true} username="Ajith R"/>
-            <ConditionalRendering isLogged={false} username="Ajith R"/>
-
+            <Button />
         </>
     ); 
 }
