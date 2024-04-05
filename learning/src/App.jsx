@@ -134,17 +134,27 @@
 
 //Counter 2. updater function----------------------------------------------------------------------
 
-import Counter2 from './Counter2/Counter.jsx'
+// import Counter2 from './Counter2/Counter.jsx'
+
+// function App() {
+
+//     return (
+//         <>
+//             <Counter2 />
+//         </>
+//     ); 
+// }
+
+import UpdateObjectState from './updateObjectState/updateObject.jsx'
 
 function App() {
 
     return (
         <>
-            <Counter2 />
+            <UpdateObjectState />
         </>
     ); 
 }
-
 
 
 export default App
