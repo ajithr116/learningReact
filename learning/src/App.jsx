@@ -145,16 +145,29 @@
 //     ); 
 // }
 
-import UpdateObjectState from './updateObjectState/updateObject.jsx'
 
-function App() {
+//update Object state ----------------------------------------------------------------------
+// import UpdateObjectState from './updateObjectState/updateObject.jsx'
 
-    return (
+// function App() {
+
+//     return (
+//         <>
+//             <UpdateObjectState />
+//         </>
+//     ); 
+// }
+
+//update Array state ----------------------------------------------------------------------
+
+import UpdateArrayState from './updateArrayState/updateArrayState.jsx'
+
+function App(){
+    return(
         <>
-            <UpdateObjectState />
+            <UpdateArrayState/>
         </>
-    ); 
+    );
 }
-
 
 export default App
