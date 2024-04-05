@@ -159,15 +159,26 @@
 // }
 
 //update Array state ----------------------------------------------------------------------
+// import UpdateArrayState from './updateArrayState/updateArrayState.jsx'
 
-import UpdateArrayState from './updateArrayState/updateArrayState.jsx'
+// function App(){
+//     return(
+//         <>
+//             <UpdateArrayState/>
+//         </>
+//     );
+// }
+
+//use Effect ----------------------------------------------------------------------
+import UseEffect from './useEffect/useEffect.jsx'
 
 function App(){
     return(
         <>
-            <UpdateArrayState/>
+            <UseEffect/>
         </>
     );
 }
+
 
 export default App
