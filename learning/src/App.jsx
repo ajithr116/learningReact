@@ -121,17 +121,29 @@
 // }
 
 //onChange listerner----------------------------------------------------------------------
-import OnChange from './onChangeInput/onChange.jsx'
+// import OnChange from './onChangeInput/onChange.jsx'
+
+// function App() {
+
+//     return (
+//         <>
+//             <OnChange />
+//         </>
+//     ); 
+// }
+
+//Counter 2. updater function----------------------------------------------------------------------
+
+import Counter2 from './Counter2/Counter.jsx'
 
 function App() {
 
     return (
         <>
-            <OnChange />
+            <Counter2 />
         </>
     ); 
 }
-
 
 
 

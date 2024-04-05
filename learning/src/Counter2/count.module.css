@@ -1,0 +1,27 @@
+
+.counterCountiner{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.countDisplay{
+    font-size: 6em;
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+.counterButton{
+    width:150px;
+    height:50px;
+    font-size:1.5em;
+    font-weight: bold;
+    margin:0px 5px;
+    color:white;
+    border:none;
+    background-color:rgb(19, 84, 105);
+    border-radius: 5px;
+    cursor:pointer;
+}
+.counterButton:hover{
+    background-color:lightblue;
+}
