@@ -170,15 +170,25 @@
 // }
 
 //use Effect ----------------------------------------------------------------------
-import UseEffect from './useEffect/useEffect.jsx'
+// import UseEffect from './useEffect/useEffect.jsx'
+
+// function App(){
+//     return(
+//         <>
+//             <UseEffect/>
+//         </>
+//     );
+// }
+
+//Digital clock----------------------------------------------------------------------
+import DigitalClock from './DigitalClock/DigitalClock.jsx'
 
 function App(){
     return(
         <>
-            <UseEffect/>
+            <DigitalClock/>
         </>
     );
 }
-
 
 export default App
