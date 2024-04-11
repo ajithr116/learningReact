@@ -37,33 +37,33 @@ function myComponent(){
     // )
 
     // //----------------------------------------------------------------
-    // const [name, setName] = useState("guest");
-    // const [age, setAge] = useState(0);
-    // const[isEmployed, setIsEmployed] = useState(false);
+    const [name, setName] = useState("guest");
+    const [age, setAge] = useState(0);
+    const[isEmployed, setIsEmployed] = useState(false);
     
-    // const updateName = ()=>{
-    //     setName("Spongebob");
-    // }
+    const updateName = ()=>{
+        setName("Spongebob");
+    }
 
-    // const incrementAge = ()=>{
-    //     setAge(age+1);
-    // }
+    const incrementAge = ()=>{
+        setAge(age+1);
+    }
 
-    // const toggleEmployedStatus =()=>{
-    //     setIsEmployed(!isEmployed);
-    // }
-    // return(
-    //     <div>
-    //         <p>Name : {name}</p>
-    //         <button onClick={updateName}>Set name</button>
+    const toggleEmployedStatus =()=>{
+        setIsEmployed(!isEmployed);
+    }
+    return(
+        <div>
+            <p>Name : {name}</p>
+            <button onClick={updateName}>Set name</button>
 
-    //         <p>age : {age}</p>
-    //         <button onClick={incrementAge}>Increment age</button>
+            <p>age : {age}</p>
+            <button onClick={incrementAge}>Increment age</button>
 
-    //         <p>isEmployed : {isEmployed ? "yes" : "no"}</p>
-    //         <button onClick={toggleEmployedStatus}>Status change</button>
-    //     </div>
-    // )
+            <p>isEmployed : {isEmployed ? "yes" : "no"}</p>
+            <button onClick={toggleEmployedStatus}>Status change</button>
+        </div>
+    )
 
 
 }

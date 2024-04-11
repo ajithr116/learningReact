@@ -121,7 +121,7 @@
 // }
 
 //onChange listerner----------------------------------------------------------------------
-// import OnChange from './onChangeInput/onChange.jsx'
+
 
 // function App() {
 
@@ -181,14 +181,61 @@
 // }
 
 //Digital clock----------------------------------------------------------------------
-import DigitalClock from './DigitalClock/DigitalClock.jsx'
+// import DigitalClock from './DigitalClock/DigitalClock.jsx'
+
+// function App(){
+//     return(
+//         <>
+//             <DigitalClock/>
+//         </>
+//     );
+// }
+
+//Form submit ---------------------------------------------------------------------
+// import FormSubmit from './FormSubmit/FormSubmit.jsx'
+
+// function App(){
+//     return(
+//         <>
+//             <FormSubmit />
+//         </>
+//     );
+// }
+
+//Api ---------------------------------------------------------------------
+// import ApiCode from './ApiCode/api.jsx'
+
+// function App(){
+//     return(
+//         <>
+//             <ApiCode />
+//         </>
+//     );
+// }
+
+
+//useCallaback() ---------------------------------------------------------------------
+import UseCallbacks from './useCallbacks/useCallbacks.jsx'
+import UseMemos from './useMemos/useMemos.jsx'
+
 
 function App(){
     return(
         <>
-            <DigitalClock/>
+            {/* <UseCallbacks/> */}
+            <UseMemos/>
         </>
     );
 }
+
+// import XTraining from './XTraining.js/XTraining.jsx'
+
+// function App(){
+//     return(
+//         <>
+//             <XTraining />
+//         </>
+//     );
+// }
 
 export default App
