@@ -29,10 +29,10 @@ function Button(){
     // return (<button onClick={(event)=>handleClick(event)}>click me</button>);
 
     //------------------------------------------------------------------------------
-    const imgUrl = './src/assets/amplifiers3.jpg';
-    const handleClick=(event)=>event.target.display="none";
+    // const imgUrl = './src/assets/amplifiers3.jpg';
+    // const handleClick=(event)=>event.target.display="none";
 
-    return(<img onClick={(e)=> handleClick(e)} src={imgUrl}></img>)
+    // return(<img onClick={(e)=> handleClick(e)} src={imgUrl}></img>)
 }
 
 export default Button;
