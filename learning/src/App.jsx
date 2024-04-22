@@ -215,18 +215,18 @@
 
 
 //useCallaback() ---------------------------------------------------------------------
-import UseCallbacks from './useCallbacks/useCallbacks.jsx'
-import UseMemos from './useMemos/useMemos.jsx'
+// import UseCallbacks from './useCallbacks/useCallbacks.jsx'
+// import UseMemos from './useMemos/useMemos.jsx'
 
 
-function App(){
-    return(
-        <>
-            {/* <UseCallbacks/> */}
-            <UseMemos/>
-        </>
-    );
-}
+// function App(){
+//     return(
+//         <>
+//             {/* <UseCallbacks/> */}
+//             <UseMemos/>
+//         </>
+//     );
+// }
 
 // import XTraining from './XTraining.js/XTraining.jsx'
 
@@ -237,5 +237,43 @@ function App(){
 //         </>
 //     );
 // }
+
+
+//Axios ---------------------------------------------------------------------
+
+// import Axios from './Axios.jsx'
+
+// function App(){
+//     return(
+//         <>
+//             <Axios />
+//         </>
+//     );
+// }
+
+//Lazy loading ---------------------------------------------------------------------
+
+// import Lazy from './LazyLoading/lazyLoading';
+
+// function App(){
+//     return(
+//         <>
+//             <Lazy />
+//         </>
+//     );
+// }
+
+//Use reducer  ---------------------------------------------------------------------
+
+import UseReducer from './UseReducer/UseReducer';
+
+function App(){
+    return(
+        <>
+            <UseReducer />
+        </>
+    );
+}
+
 
 export default App
