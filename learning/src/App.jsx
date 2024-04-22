@@ -265,15 +265,31 @@
 
 //Use reducer  ---------------------------------------------------------------------
 
-import UseReducer from './UseReducer/UseReducer';
+// import UseReducer from './UseReducer/UseReducer';
 
-function App(){
-    return(
-        <>
-            <UseReducer />
-        </>
-    );
+// function App(){
+//     return(
+//         <>
+//             <UseReducer />
+//         </>
+//     );
+// }
+
+//useContext  ---------------------------------------------------------------------
+
+import React from 'react';
+import { ThemeProvider } from './UseContext/context'; // Corrected import path
+
+import Header from './UseContext/Header';
+import Content from './UseContext/content';
+
+function App() {
+  return (
+    <ThemeProvider>
+      <Header />
+      <Content />
+    </ThemeProvider>
+  );
 }
 
-
-export default App
+export default App;
