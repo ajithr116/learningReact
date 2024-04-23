@@ -277,19 +277,59 @@
 
 //useContext  ---------------------------------------------------------------------
 
-import React from 'react';
-import { ThemeProvider } from './UseContext/context'; // Corrected import path
 
-import Header from './UseContext/Header';
-import Content from './UseContext/content';
+// import UseEffect from './useEffect/useEffect.jsx'
+
+// function App(){
+//     return(
+//         <>
+//             <UseEffect/>
+//         </>
+//     );
+// }
+
+
+// export default App
+
+//Theme Provider using useContext  ---------------------------------------------------------------------
+
+// import React from 'react';
+// import { ThemeProvider } from './UseContext/context'; // Corrected import path
+
+// import Header from './UseContext/Header';
+// import Content from './UseContext/content';
+
+// function App() {
+//   return (
+//     <ThemeProvider>
+//       <Header />
+//       <Content />
+//     </ThemeProvider>
+//   );
+// }
+
+//Context API  ---------------------------------------------------------------------
+
+import React, { useState } from 'react';
+import { MyContext, Theme } from './contextAPI/MyContext';
+import MyComponent from './contextAPI/MyComponent';
+import SampleCalling from './contextAPI/SampleCalling';
+import ThemeSetter from './contextAPI/MyContext';
 
 function App() {
-  return (
-    <ThemeProvider>
-      <Header />
-      <Content />
-    </ThemeProvider>
-  );
+    const [text, setText] = useState("");
+
+    return (
+        <>
+            <MyContext.Provider value={{ text, setText }}>
+                <Theme.Provider value={ThemeSetter()}>
+                    <SampleCalling />
+                    <MyComponent />
+                </Theme.Provider>
+            </MyContext.Provider>
+        </>
+    );
 }
 
 export default App;
+
